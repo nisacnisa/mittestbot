@@ -18,6 +18,7 @@ async def on_ready():
         async def on_message (message):
           if message.author == clientuser:
             return
-        
+        if message.content.startswith('$hello')
+await message.channel.send('hello!')
 
     
