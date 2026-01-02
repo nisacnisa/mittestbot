@@ -20,5 +20,6 @@ async def on_ready():
             return
         if message.content.startswith('$hello')
 await message.channel.send('hello!')
+client.run(os.getenv('TOKEN'))
 
     
